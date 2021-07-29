@@ -15,13 +15,34 @@ class ViewController: UIViewController {
     @IBOutlet weak var factTwo: UILabel!
     @IBOutlet weak var factThree: UILabel!
     
+var arrayOfFacts = ["I am one of two people in my family that was not born in Jamaica 🇯🇲", "I play soccer, field hockey, and track", "I enjoy reading books!", "I am an only child!"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
     @IBAction func submitButtonTapped(_ sender: UIButton) {
-        //code goes here
+        
+        //FactOne
+        
+        factOne.text = "I am one of two people in my family that was not born in Jamaica 🇯🇲"
+        factTwo.text = "I play soccer ⚽️, field hockey, and track"
+        factThree.text = "I am an only child!"
+        
+        //let randomIndex = Int.random(in: 0..<arrayOfFacts.count)
+        //let randomFactOne = arrayOfFacts[randomIndex]
+        //let randomFactTwo = arrayOfFacts[randomIndex]
+       // let randomFactThree = arrayOfFacts[randomIndex]
+        
+       // factOne.text = randomFactOne
+       // factTwo.text = randomFactTwo
+        //factThree.text = randomFactThree
+        
+        
+        
+        
+        //factone.text=arrayoffacts0
     }
     
 }
