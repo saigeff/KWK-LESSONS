@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ToDOClass {
+class ToDoClass {
     var description = ""
     var important = false
     
