@@ -1,32 +1,21 @@
 //
-//  ViewControllerTen.swift
+//  ViewControllerEleven.swift
 //  FInalProjectApp
 //
-//  Created by Saige Forbes on 8/1/21.
+//  Created by Saige Forbes on 8/3/21.
 //
 
 import UIKit
 
-class ViewControllerTen: UIViewController {
+class ViewControllerEleven: UIViewController {
 
-    @IBOutlet weak var questionLabelVC10: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func appDevPressed(_ sender: UIButton) {
-    }
-    
-    @IBAction func webDevPressed(_ sender: UIButton) {
-    }
-    
-    
-    @IBAction func UIUXPressed(_ sender: UIButton) {
-    }
-    
+
     /*
     // MARK: - Navigation
 

@@ -9,13 +9,39 @@ import UIKit
 
 class ViewControllerFour: UIViewController {
 
+    @IBOutlet weak var questionLabelThree: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func englishButtonPressed(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func chineseButtonPressed(_ sender: UIButton) {
+        
+    }
+    
+    
+    @IBAction func spanishButtonPressed(_ sender: UIButton) {
+        
+    }
+    
+    
+    @IBAction func frenchButtonPressed(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func korenButtonPressed(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func germanButtonPressed(_ sender: UIButton) {
+        
+    }
     /*
     // MARK: - Navigation
 

@@ -9,6 +9,10 @@ import UIKit
 
 class ViewControllerEight: UIViewController {
 
+    @IBOutlet weak var bookCoverImage: UIImageView!
+    @IBOutlet weak var bookSuggestionLabel: UILabel!
+    @IBOutlet weak var aboutTheBook: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

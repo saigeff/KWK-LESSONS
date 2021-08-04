@@ -9,13 +9,23 @@ import UIKit
 
 class ViewControllerFive: UIViewController {
 
+    @IBOutlet weak var questionLabelVC5: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func schoolCollegePressed(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func workPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func exercisePressed(_ sender: UIButton) {
+    }
     /*
     // MARK: - Navigation
 

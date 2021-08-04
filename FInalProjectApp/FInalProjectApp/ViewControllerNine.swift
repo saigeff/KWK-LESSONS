@@ -9,13 +9,23 @@ import UIKit
 
 class ViewControllerNine: UIViewController {
 
+    @IBOutlet weak var questionLabelVC9: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func dataSciencePressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func softwareDevPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func programmingPressed(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -9,13 +9,26 @@ import UIKit
 
 class ViewControllerSix: UIViewController {
 
+    @IBOutlet weak var questionLabelVC6: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func producPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func habitsPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func dailyRoutinesPressed(_ sender: UIButton) {
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 

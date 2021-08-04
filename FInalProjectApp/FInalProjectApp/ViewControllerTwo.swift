@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewControllerTwo: UIViewController {
+    
+    @IBOutlet weak var questionLabelVC2: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +18,22 @@ class ViewControllerTwo: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func learnButtonPressed(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func motivationButtionPressed(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func entertainmentButtonPressed(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func selfDevelopButtonPressed(_ sender: UIButton) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 
